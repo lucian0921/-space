@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url('images/登录页壁纸.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing:border-box;
+  overflow: hidden;
+  top: 50%;  
+  transform: translateY(-50%);  
+}
+
+.overlay-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:auto;
+  height: auto
+}
+
+.主题图 {
+  width: 500px;
+  height: auto;
+}
+
+.overlay-text {
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgb(49, 47, 47);
+}
+
+.overlay-button {
+margin-top: 20px;
+margin-bottom: 40px;
+padding: 10px 20px;
+width: 300px;
+height: 50px;
+font-size: 16px;
+color: #ffffff;
+background-color:rgb(44, 2, 20);
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
